@@ -17,7 +17,12 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     UIWindow *window = [[UIWindow alloc] initWithFrame:CGRectMake(0, 0, 890, 900)];
-    
+    UILabel *lable = [[UILabel alloc] initWithFrame:CGRectZero];
+    lable.backgroundColor = [UIColor blueColor];
+    lable.text = @"13";
+    lable.textColor = [UIColor whiteColor];
+    lable.font = [UIFont systemFontOfSize:16.0f];
+    [window addSubview:lable];
     return YES;
 }
 
