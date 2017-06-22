@@ -23,6 +23,9 @@
     lable.textColor = [UIColor whiteColor];
     lable.font = [UIFont systemFontOfSize:16.0f];
     [window addSubview:lable];
+    /**
+     *@file  asdfgasdgfsdaasd
+     */
     return YES;
 }
 
